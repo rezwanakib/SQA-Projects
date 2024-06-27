@@ -1,0 +1,16 @@
+﻿{
+    "DDT": [
+        {
+            "fullName": "This Is My Full Name 1",
+            "email": "username1@domain.com"
+        },
+        {
+            "fullName": "This Is My Full Name 2",
+            "email": "username2@domain.com"
+        },
+        {
+            "fullName": "This Is My Full Name 3",
+            "email": "username3@domain.com"
+        }
+    ]
+}

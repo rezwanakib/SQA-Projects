@@ -1,0 +1,8 @@
+{
+  "data": [
+    [ 1, "Monday", "Morning" ],
+    [ 2, "Monday", "Afternoon" ],
+    [ 3, "Tuesday", "Morning" ],
+    [ 4, "Tuesday", "Afternoon" ]
+  ] 
+}

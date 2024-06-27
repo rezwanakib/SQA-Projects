@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Example1Sectioning.json" />
+    <None Remove="Example2Sectioning.json" />
+    <None Remove="Example3Encoding.json" />
+    <None Remove="Example4FileDiscovery\Boo\Example4FileDiscovery.json" />
+    <None Remove="Example4FileDiscovery\Foo\Example4FileDiscovery.json" />
+    <None Remove="Example5ReadingObject.json" />
+    <None Remove="Example6ReadingList.json" />
+    <None Remove="Example7ReadingAsJson.json" />
+    <None Remove="Example8ListOfList.json" />
+    <None Remove="Example9ListOfObject.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Example1Sectioning.json" />
+    <EmbeddedResource Include="Example2Sectioning.json" />
+    <EmbeddedResource Include="Example3Encoding.json" />
+    <EmbeddedResource Include="Example4FileDiscovery\Boo\Example4FileDiscovery.json" />
+    <EmbeddedResource Include="Example4FileDiscovery\Foo\Example4FileDiscovery.json" />
+    <EmbeddedResource Include="Example5ReadingObject.json" />
+    <EmbeddedResource Include="Example6ReadingList.json" />
+    <EmbeddedResource Include="Example7ReadingAsJson.json" />
+    <EmbeddedResource Include="Example8ListOfList.json" />
+    <EmbeddedResource Include="Example9ListOfObject.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.2" />
+    <PackageReference Include="WonderTools.JsonSectionReader" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

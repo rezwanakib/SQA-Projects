@@ -1,5 +1,3 @@
-# SQA-Projects
-
 Welcome to the repository! This repository contains multiple projects, each situated on its own branch. Below are the details on how to navigate and the topics covered.
 
 ## Navigation

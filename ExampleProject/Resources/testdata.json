@@ -1,0 +1,9 @@
+﻿{
+    "signup": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "email@domain.com",
+        "password": "bss@sqa",
+        "phone": "01512345670"
+    }
+}

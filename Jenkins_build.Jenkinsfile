@@ -1,5 +1,3 @@
-def projectName = "CQC"
-
 pipeline {
     agent any
 
